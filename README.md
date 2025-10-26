@@ -40,7 +40,7 @@ hdfs dfs -put stock_data_VIC.csv /user/root/vn_stock/
 
 ## 📊 Phân tích dữ liệu
 
-Thực hiện trong file **`Stock_price_demo-Copy2.ipynb`**
+Thực hiện trong file **`Stock_price_demo-for_VN.ipynb`**
 
 1. **Đọc dữ liệu từ HDFS bằng PySpark.**  
 2. **Tiền xử lý:**
@@ -50,6 +50,10 @@ Thực hiện trong file **`Stock_price_demo-Copy2.ipynb`**
    - Biểu đồ giá trung bình (Mean)
    - Biểu đồ phân phối lợi suất (Histogram, KDE)
 4. **So sánh biến động giữa 5 mã lớn:** `VIC`, `VNM`, `VCB`, `HPG`, `SSI`
+
+(*) Có một vài bổ sung về cách trực quan dữ liệu, thêm các biểu đồ:
+  + Boxplot: thể hiện phân phối lợi nhuận và rủi ro của các mã chứng khoán
+  + Heatmap với Matrix Correlation: biểu thị tỷ suất lợi nhuận và rủi ro của 5 mã chứng khoán
 
 ---
 
